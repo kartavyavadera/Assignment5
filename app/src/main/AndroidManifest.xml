@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.asst.assignment5">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Assignment5">
+        <activity
+            android:name=".q7"
+            android:label="@string/title_activity_q7"
+            android:theme="@style/Theme.Assignment5.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".Q6_2" />
+        <activity android:name=".Q6" >
+
+        </activity>
+        <activity android:name=".Q5" >
+
+
+        </activity>
+        <activity android:name=".Q4" >
+
+        </activity>
+        <activity android:name=".Q3" >
+
+        </activity>
+        <activity android:name=".Q2">
+
+        </activity>
+        <activity android:name=".MainActivity">
+
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+
+        </activity>
+    </application>
+
+</manifest>
